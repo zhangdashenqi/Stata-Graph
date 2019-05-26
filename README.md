@@ -18,8 +18,9 @@ copy "https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/plot_di
 
 ## 推荐关注
 
-<div align=center><img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/logo.png" width=300px />
-<img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/qr.png" width=500px /></div>
+<div align=center><img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/logo.png" width=300px /></div>
+
+<div align=center><img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/qr.png" width=500px /></div>
 
 ## 贡献者
 
