@@ -26,7 +26,7 @@ copy https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/plot_dis
 * 张大神气
 * 李大本事
 * 王大聪明
-* 死缺三
+* 四缺三
 * 迷途指针
 
 # Contribute
