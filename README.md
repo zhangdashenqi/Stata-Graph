@@ -2,19 +2,24 @@
 
 # The Zen of Stata
 
+## 主要内容
+
+关于Stata编程、绘图、数据处理等。
+
 
 ## 安装步骤
 
 您可以在Stata中使用`copy`命令将仓库中的文件复制到本地。
 如：
+
 ```s
 copy https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/plot_distribution.do plot_distribution.do
 ```
 
 ## 推荐关注
 
-![logo](https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/logo.png)
-![QR](https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/qr.png)
+<img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/logo.png" width=300px/>
+<img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/qr.png" width=500px />
 
 ## 贡献者
 
