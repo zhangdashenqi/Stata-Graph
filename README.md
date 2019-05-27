@@ -1,4 +1,4 @@
-# Stata之禅    <img src="https://img.shields.io/badge/Stata-@zhangdashenqi-green.svg?logo=angular&style=for-the-badge" height=20px/> ![rate](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-brightgreen.svg)![license](https://img.shields.io/badge/license-Apache%202-blue.svg)
+# Stata之禅    <img src="https://img.shields.io/badge/Stata-@zhangdashenqi-green.svg?logo=angular&style=for-the-badge" height=20px/> ![rate](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-brightgreen.svg) ![license](https://img.shields.io/badge/license-Apache%202-blue.svg)
 
 # The Zen of Stata
 
