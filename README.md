@@ -13,7 +13,7 @@
 如：
 
 ```s
-copy "https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/plot_distribution.do" "plot_distribution.do"
+copy "https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/do/data_distribution.do" "plot_distribution.do"
 ```
 
 ## 推荐关注
