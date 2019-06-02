@@ -36,6 +36,3 @@ table 省份, c(count 流水号)
 table 省份 year if year>=2009, c(count 流水号)
 
 table 省份 year if year>=2009, c(count 流水号) row column
-		 
-
-	
