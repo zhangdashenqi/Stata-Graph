@@ -4,72 +4,38 @@
 			****			the Zen of Stata			****
 			************************************************
 
-* Pivotable 2
+* Pivotable 1
 
-* 画图
+import excel "机构退出列表.xls", sheet("许可证情况导出") firstrow clear
+drop 经度 纬度 机构地址
+gen year = yofd(date(批准成立日期, "YMD")) 		// 银行分支机构成立年份
+gen quit_year = yofd(date(发生日期, "YMD"))  	// 银行分支机构退出年份
+gen age = quit_year - year + 1 					// 存续时间
 
-* 柱状图
 
-graph bar (count) 流水号, over(quit_year) blabel(total)
 
-gen bank = 1
-graph bar (count) bank, over(quit_year) blabel(total)
+*=tabstat=
+tabstat 流水号, by(省份) s(n) 
 
-graph bar (count) bank if (省份=="北京"|省份=="上海"),  ///
-	over(quit_year) over(省份) blabel(total)
+bysort year: tabstat 流水号, by(省份) s(n) 
+
+*=tabulate=
+
+tabulate 省份, sum(流水号) obs
+
+tabulate 省份, sum(流水号) nomeans nost nofr obs
+
+tabulate 省份 year, sum(流水号) nomeans nost nofr obs //too many values
+
+tabulate 省份 year if year>=2009, sum(流水号) nomeans nost nofr obs wrap
+
+*=table=
+
+table 省份, c(count 流水号)
+
+table 省份 year if year>=2009, c(count 流水号)
+
+table 省份 year if year>=2009, c(count 流水号) row column
+		 
+
 	
-graph bar (count) bank if (省份=="北京"|省份=="上海"),  ///
-	over(省份) over(quit_year)  blabel(total)	
-
-collapse (count) banknum = bank, by(quit_year)
-twoway bar banknum quit_year, barw(0.5) xlabel(2016(1)2018)
-
-graph bar (mean) age, over(quit_year) blabel(total)
-
-
-
-graph hbar (count) bank if (省份=="北京"|省份=="上海"),  ///
-	over(quit_year) blabel(total) ytitle("") 			 ///
-	bar(1, fcolor(green) fintensity(30)) bargap(5)  	 ///
-	by(省份, title("银行分支机构退出情况") 				 ///
-			 note("数据来源：中国银行业监督管理委员会")) ///
-	scheme(s1color) 
-	
-
-* 饼状图
-
-graph pie bank, over(quit_year) plabel(_all percent, format(%4.2f))
-
-graph pie bank, over(quit_year) 							///
-	plabel(_all percent, format(%4.2f) color(white)) 		///
-	legend(row(3) ring(0) symxsize(*0.5) size(*0.8) pos(1))	///
-	scheme(s1color)  										///
-	title("银行分支机构退出情况") 							///
-	note("数据来源：中国银行业监督管理委员会")
-
-graph pie bank if (省份=="北京"|省份=="上海"), 				///
-	over(quit_year) 										///
-	plabel(_all name, color(white)) 						///
-	by(省份, title("银行分支机构退出情况") 					///
-			 note("数据来源：中国银行业监督管理委员会") 	///
-			 legend(off))									///	
-	scheme(s1color) 
-
-
-* 点图
-
-graph dot (count) bank, over(quit_year)
-
-graph dot (mean) age (median) age, over(quit_year)
-
-graph dot (mean) age (median) age if (省份=="北京"|省份=="上海"), 	///
-	over(省份) over(quit_year)  									///
-	marker(1, msymbol(Oh)) marker(2, msymbol(Dh))					///
-	title("银行分支结构退出时的年龄")
-	
-graph dot (mean) age (median) age if (省份=="北京"|省份=="上海"), 	///
-	over(quit_year) marker(1, msymbol(Oh)) marker(2, msymbol(Dh)) 	///
-	by(省份, title("银行分支结构退出时的年龄") 						///
-			 note("数据来源：中国银行业监督管理委员会") 			///
-			 legend(off))											///	
-	scheme(s1color) 
