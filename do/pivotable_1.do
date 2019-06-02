@@ -40,23 +40,4 @@ tabstat 流水号, by(省份) s(n)
 
 bysort year: tabstat 流水号, by(省份) s(n) 
 
-*=tabulate=
-
-tabulate 省份, sum(流水号) obs
-
-tabulate 省份, sum(流水号) nomeans nost nofr obs
-
-tabulate 省份 year, sum(流水号) nomeans nost nofr obs //too many values
-
-tabulate 省份 year if year>=2009, sum(流水号) nomeans nost nofr obs wrap
-
-*=table=
-
-table 省份, c(count 流水号)
-
-table 省份 year if year>=2009, c(count 流水号)
-
-table 省份 year if year>=2009, c(count 流水号) row column
-		 
-
 	
