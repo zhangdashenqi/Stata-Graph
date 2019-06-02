@@ -39,5 +39,3 @@ collapse (mean) bank_mean = banknum ///
 tabstat 流水号, by(省份) s(n) 
 
 bysort year: tabstat 流水号, by(省份) s(n) 
-
-	
