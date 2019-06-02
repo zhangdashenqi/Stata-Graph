@@ -257,3 +257,4 @@ spmap age using "china_map.dta", id(id) 			///
 	diagram(variable(banknum bankbefore)  			///
 			legenda(on) type(pie) fcolor(Set3)		///
 			xcoord(x_coord) ycoord(y_coord))
+
