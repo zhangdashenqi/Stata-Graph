@@ -18,7 +18,7 @@ graph box price, marker(1, mlabel(price))
 
 其中，`marker()`选项用于设定位于箱体上下引线之外的值（outside values）的外型，在这里我们给这些值添加了标签，标签上的值为其价格。结果如下：
 
-![图1](img/1.jpg)
+![图1](img/1.png)
 
 可以看到，变量`price`有许多超过箱体上引线的值：这些outside values最大的为15906，最小的为9690。那么这些值是离群值么？
 
