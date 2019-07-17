@@ -148,4 +148,3 @@ replace `generate' = . if `touse' & `generate' < `low'
 replace `generate' = . if `touse' & `generate' > `high'
 */
 
-
