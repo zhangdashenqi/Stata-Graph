@@ -24,6 +24,10 @@
 
 [outliers](./outliers)
 
+### 203 处理离群值
+
+[do_about_outliers](./do_about_outliers)
+
 ## 推荐关注
 
 <div align=center><img src="https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/logo.png" width=300px /></div>
