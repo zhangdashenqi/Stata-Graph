@@ -1,18 +1,12 @@
 # 更新列表
 
-### 101 用Stata做透视表
 
-[pivotable_1](./pivotable_1)
 
-### 102 用Stata做透视表(续)
-
-[pivotable_2](./pivotable_2)
-
-### 103 用Stata绘制统计类图
+### 103 Stata绘图之统计类图
 
 [graph_bar_pie_dot](./graph_bar_pie_dot)
 
-### 104 用Stata绘制地图
+### 104 Stata绘图之地图
 
 [graph_map](./graph_map)
 
@@ -36,9 +30,17 @@
 
 [5.绘图之函数图像.do](./5.绘图之函数图像.do)
 
-### 110 绘图之K线图.do
+### 110 Stata绘图之K线图
 
 [6.绘图之K线图.do](./6.绘图之K线图.do)
+
+### 101 用Stata做透视表
+
+[pivotable_1](./pivotable_1)
+
+### 102 用Stata做透视表(续)
+
+[pivotable_2](./pivotable_2)
 
 ### 201 数据的分布特征
 
