@@ -12,27 +12,27 @@
 
 ### 103 Stata绘图之line
 
-[1.绘图之line](./1.绘图之line)
+[1.绘图之line](./graph_line)
 
 ### 104 Stata绘图之Scatetr
 
-[2.绘图之scatter_四个参数画大象](./2.绘图之scatter_四个参数画大象)
+[2.绘图之scatter_四个参数画大象](./graph_scatter)
 
 ### 105 Stata绘图之bar
 
-[3.绘图之bar](./3.绘图之bar)
+[3.绘图之bar](./graph_bar)
 
 ### 106 Stata绘图之rarea
 
-[4.绘图之rarea](./4.绘图之rarea)
+[4.绘图之rarea](./graph_rarea)
 
 ### 107 Stata绘图之function
 
-[5.绘图之函数图像](./5.绘图之函数图像)
+[5.绘图之函数图像](./graph_function)
 
 ### 108 Stata绘图之K线图
 
-[6.绘图之K线图](./6.绘图之K线图)
+[6.绘图之K线图](./graph_Kline)
 
 ### 109 用Stata做透视表
 
