@@ -34,19 +34,23 @@
 
 [6.绘图之K线图](./graph_Kline)
 
-### 109 用Stata做透视表
+### 109 Stata绘图之国旗
+
+[graph_flag](./graph_flag)
+
+### 201 用Stata做透视表
 
 [pivotable_1](./pivotable_1)
 
-### 110 用Stata做透视表(续)
+### 202 用Stata做透视表(续)
 
 [pivotable_2](./pivotable_2)
 
-### 201 数据的分布特征
+### 203 数据的分布特征
 
 [data_distribution](./data_distribution)
 
-### 202 寻找离群值
+### 204 寻找离群值
 
 [outliers](./outliers)
 
