@@ -9,14 +9,27 @@
 
 ## 安装步骤
 
-您可以在Stata中使用`copy`命令将仓库中的文件复制到本地。
-如：
+### 1.首先设定安装地址
 
-```s
-copy "https://raw.githubusercontent.com/zhangdashenqi/Stata-Graph/master/do/data_distribution.do" "data_distribution.do"
-doedit data_distribution.do
+```c
+global github https://raw.githubusercontent.com/zhangdashenqi
+net from ${github}/the_zen_of_stata/master/ado
 ```
 
+### 2.然后使用Stata内置命令`net`安装Stata之禅命令：`zstata`
+
+```c
+net install zstata
+```
+
+### 3.安装成功之后，在Stata命令窗口输入`zstata`即可
+
+```c
+zstata
+```
+![zstata](zstata.png)
+
+此时，您可以自由下载、编辑相关do文档。
 
 ## 推荐关注
 
