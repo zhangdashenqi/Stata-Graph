@@ -63,7 +63,7 @@
 
 [outliers](./outliers)
 
-### 203 处理离群值
+### 205 处理离群值
 
 [do_about_outliers](./do_about_outliers)
 
