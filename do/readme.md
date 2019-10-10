@@ -38,9 +38,14 @@
 
 [graph_flag](./graph_flag)
 
-### 110 Stata绘图之twoway_area
+### 110 Stata绘图之twoway_area_1
 
 [twoway_area_1](./twoway_area_1)
+
+### 111 Stata绘图之twoway_area_2
+
+[twoway_area_2](./twoway_area_2)
+
 
 ### 201 用Stata做透视表
 
