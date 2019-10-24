@@ -50,6 +50,10 @@
 
 [twoway_area_3](./twoway_area_3)
 
+### 113 Stata绘图之twoway_area_4
+
+[twoway_area_4](./twoway_area_4)
+
 ### 201 用Stata做透视表
 
 [pivotable_1](./pivotable_1)
