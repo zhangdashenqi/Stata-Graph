@@ -46,6 +46,9 @@
 
 [twoway_area_2](./twoway_area_2)
 
+### 112 Stata绘图之twoway_area_3
+
+[twoway_area_3](./twoway_area_3)
 
 ### 201 用Stata做透视表
 
