@@ -7,7 +7,7 @@
 关于Stata编程、绘图、数据处理等。**请直接点击do文件夹即可查看**。
 
 
-## 安装步骤
+## 安装步骤（从github获取）
 
 ### 1.首先设定安装地址
 
@@ -28,6 +28,28 @@ net install zstata
 zstata
 ```
 ![zstata](zstata.png)
+
+
+## 安装步骤（从码云`gitee`获取）
+
+### 1.首先设定安装地址
+
+```c
+cap mkdir "`c(sysdir_plus)'z"
+global gitee https://gitee.com/zhangdashenqi/the_zen_of_stata/raw/master/ado
+```
+
+### 2.然后使用命令行工具`curl`安装Stata之禅命令：`zstata`
+
+```c
+!curl "${gitee}/zstata.ado" -o `c(sysdir_plus)'z/zstata.ado 
+```
+
+### 3.安装成功之后，在Stata命令窗口输入`zstata`即可
+
+```c
+zstata, g  // 从gitee中获取数据
+```
 
 此时，您可以自由下载、编辑相关do文档。
 
