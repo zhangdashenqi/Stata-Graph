@@ -54,6 +54,10 @@
 
 [twoway_area_4](./twoway_area_4)
 
+### 114 Stata绘图：年度数据、日度数据如何绘制在一起？
+
+[plot_2axis](./plot_2axis)
+
 ### 201 用Stata做透视表
 
 [pivotable_1](./pivotable_1)
